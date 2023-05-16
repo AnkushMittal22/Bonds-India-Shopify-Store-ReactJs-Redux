@@ -64,7 +64,6 @@ const SignInUp = () => {
     <section>
       <div className={style.sign}>
         <img
-          // style={{ width: "100%", height: "100vh" }}
           src="https://www.sporcle.com/blog/wp-content/uploads/2018/03/1-22.jpg"
           alt=""
         />

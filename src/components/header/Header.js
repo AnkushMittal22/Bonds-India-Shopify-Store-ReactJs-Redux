@@ -6,6 +6,7 @@ const Header = () => {
 
   const logoutHandler = () => {
     localStorage.removeItem("user");
+    alert("Logout Successful");
     navigate("/", { replace: true });
   };
 
