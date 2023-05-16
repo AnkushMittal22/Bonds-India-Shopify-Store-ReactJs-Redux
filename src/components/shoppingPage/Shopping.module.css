@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.postersize img {
+    margin-top: 2rem;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+.products div {
+    height: 45rem;
+    width: 16rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3rem;
+    align-items: center;
+    background-color: rgba(69, 77, 14, 0.495);
+
+
+}
+
+.products div button {
+    padding: 0.5rem 1.5rem;
+
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.894);
+}
+
+.products button:hover {
+    background-color: rgba(19, 170, 181, 0.685);
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+}
+
+.products div p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    color: beige;
+    font-style: italic;
+}
+
+.products div p span {
+    color: rgba(0, 0, 0, 0.682);
+    font-weight: bolder;
+    font-style: italic;
+}

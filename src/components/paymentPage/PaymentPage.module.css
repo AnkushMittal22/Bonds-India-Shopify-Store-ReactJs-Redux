@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .payment {
+    
+    width: 100%;
+    height: 100vh;
+} */
+
+.payment {
+    width: 100%;
+
+    max-width: 100%;
+    height: 80vh;
+    margin-top: 5rem;
+
+    position: relative;
+
+
+
+}
+
+.payment img {
+    object-fit: cover;
+    height: auto;
+}
+
+.payment_details {
+    margin: 2rem auto;
+    width: 40rem;
+    max-width: 40rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+.payment_details img {
+    width: 13rem;
+}
+
+.details {
+    width: 40rem;
+    height: 15vh;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.payment_details p {
+    margin-top: 0.5rem;
+}
+
+.payment_details span:nth-child(1) {
+    font-size: large;
+    font-weight: bold;
+}
+
+.payment_details span:nth-child(2) {
+    font-size: large;
+    font-weight: bold;
+    color: green;
+}
+
+.payment_details .bottom_button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.payment_details .bottom_button button {
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.payment_details .bottom_button button:hover {
+    background-color: green;
+    ;
+}

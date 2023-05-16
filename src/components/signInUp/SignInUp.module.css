@@ -1,0 +1,156 @@
+section {
+    background-image: linear-gradient(to right, #ff85a8, #ffcd68);
+    height: 90vh;
+
+}
+
+.sign {
+    width: 100%;
+
+    max-width: 100%;
+
+    margin: 0 auto;
+    position: relative;
+
+
+
+}
+
+.sign img {
+    width: 100%;
+
+    height: 100vh;
+    object-fit: cover;
+    height: auto;
+
+}
+
+
+.signInUp {
+    width: 90%;
+    max-width: 30rem;
+    height: 50vh;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 18px #888888;
+    box-shadow: inset;
+    text-align: center;
+
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.signInUp:hover {
+    border-radius: 1rem;
+    border: 2px solid yellow;
+}
+
+.signInUp p {
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 1rem;
+    color: rgba(0, 0, 255, 0.666);
+}
+
+.lableInput {
+    margin-top: 2.5rem;
+}
+
+.signInUp label {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    letter-spacing: 0.4rem;
+
+
+}
+
+.signInUp input {
+    width: 80%;
+    margin: 1rem 0 1rem 0;
+    font-weight: bold;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.action_sign {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 1rem 0;
+
+}
+
+.action_sign button {
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+}
+
+.action_sign button:hover {
+    background-color: rgba(255, 255, 0, 0.545);
+    color: black;
+    border-radius: 0;
+    animation: spin 5s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:768px) {
+    .signInUp {
+        width: 90%;
+        max-width: 20rem;
+        left: 30%;
+    }
+}
+
+@media(max-width:492px) {
+    .signInUp {
+        width: 90%;
+        max-width: 17rem;
+        left: 25%;
+    }
+
+    .signInUp p {
+        font-weight: normal;
+
+        letter-spacing: 0.2rem;
+
+    }
+
+    .signInUp input {
+        width: 90%;
+
+        padding: 0.2rem;
+
+    }
+
+
+    .action_sign button {
+        padding: 0.5rem;
+        font-weight: normal;
+        letter-spacing: 0;
+        border-radius: 1rem;
+    }
+
+}
+
+@media(max-width:371px) {
+    .signInUp {
+        width: 90%;
+        max-width: 12rem;
+        /* height: 50vh; */
+
+    }
+}
