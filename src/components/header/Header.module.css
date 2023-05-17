@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .heading {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 255, 0.398);
+    background-color: rgba(0, 0, 255, 0.822);
     color: white;
     height: 80px;
     position: fixed;

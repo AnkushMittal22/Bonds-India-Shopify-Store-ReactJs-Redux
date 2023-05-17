@@ -1,58 +1,40 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-/* .payment {
-    
-    width: 100%;
-    height: 100vh;
-} */
 
 .payment {
     width: 100%;
 
     max-width: 100%;
-    height: 80vh;
+    background-image: url("https://img.freepik.com/premium-photo/travel-concept-blue-background-with-copy-space-airplane-toy-blue-color-background_661495-33583.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
     margin-top: 5rem;
-
-    position: relative;
-
-
-
-}
-
-.payment img {
-    object-fit: cover;
-    height: auto;
 }
 
 .payment_details {
-    margin: 2rem auto;
-    width: 40rem;
-    max-width: 40rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1rem;
-    position: absolute;
-    top: 5%;
-    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.payment_details img {
+.payment_details .image {
+    margin-top: 3rem;
+}
+
+.payment_details .image img {
     width: 13rem;
-}
-
-.details {
-    width: 40rem;
-    height: 15vh;
-    border: 1px solid black;
-    border-radius: 1rem;
+    height: 16rem;
 }
 
 .payment_details p {
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
 }
+
 
 .payment_details span:nth-child(1) {
     font-size: large;
@@ -68,16 +50,17 @@
 .payment_details .bottom_button {
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    width: 30%;
 }
 
 .payment_details .bottom_button button {
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.8rem;
     color: white;
     background-color: black;
     border-radius: 1rem;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     cursor: pointer;
 }
@@ -85,4 +68,43 @@
 .payment_details .bottom_button button:hover {
     background-color: green;
     ;
+}
+
+@media(max-width:865px) {
+
+    .payment_details .bottom_button {
+
+        width: 40%;
+    }
+
+    .payment_details .bottom_button button {
+
+        padding: 0.2rem 0.7rem;
+
+        border-radius: 1rem;
+
+        font-weight: normal;
+
+    }
+}
+
+
+@media(max-width:583px) {
+
+    .payment_details span:nth-child(1) {
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+
+    .payment_details span:nth-child(2) {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .payment_details .bottom_button {
+
+        width: 70%;
+    }
+
+
 }

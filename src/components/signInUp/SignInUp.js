@@ -51,7 +51,6 @@ const SignInUp = () => {
         console.log(response);
         const uId = response.data.localId;
         localStorage.setItem("user", uId);
-        alert("Sign In Successful");
         navigate("/home", { replace: true });
       })
       .catch((error) => {
@@ -63,11 +62,6 @@ const SignInUp = () => {
   return (
     <section>
       <div className={style.sign}>
-        <img
-          src="https://www.sporcle.com/blog/wp-content/uploads/2018/03/1-22.jpg"
-          alt=""
-        />
-
         <div className={style.signInUp}>
           <div>
             <p>SHOPIFY</p>

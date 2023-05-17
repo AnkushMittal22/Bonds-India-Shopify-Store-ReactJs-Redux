@@ -24,14 +24,11 @@ const PaymentPage = () => {
 
   return (
     <div className={style.payment}>
-      <img
-        style={{ height: "89vh", width: "100%" }}
-        src="https://img.freepik.com/premium-photo/travel-concept-blue-background-with-copy-space-airplane-toy-blue-color-background_661495-33583.jpg"
-        alt=""
-      />
       <div className={style.payment_details}>
-        <img src={poster} alt="" />
-        <div className={style.details}>
+        <div className={style.image}>
+          <img src={poster} alt="" />
+        </div>
+        <div>
           <p>
             <span>Product Title :</span>
             <span>{title}</span>
