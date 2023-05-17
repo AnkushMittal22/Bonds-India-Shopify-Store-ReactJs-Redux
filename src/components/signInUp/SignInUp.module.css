@@ -15,7 +15,14 @@ section {
 
 }
 
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 
+}
 
 .signInUp {
     width: 90%;
@@ -27,9 +34,7 @@ section {
     text-align: center;
 
     background-color: white;
-    position: absolute;
-    top: 25%;
-    left: 35%;
+
 }
 
 .signInUp:hover {
@@ -86,53 +91,4 @@ section {
     color: black;
     border-radius: 0;
 
-}
-
-
-@media(max-width:768px) {
-    .signInUp {
-        width: 90%;
-        max-width: 20rem;
-        left: 30%;
-    }
-}
-
-@media(max-width:492px) {
-    .signInUp {
-        width: 90%;
-        max-width: 17rem;
-        left: 25%;
-    }
-
-    .signInUp p {
-        font-weight: normal;
-
-        letter-spacing: 0.2rem;
-
-    }
-
-    .signInUp input {
-        width: 90%;
-
-        padding: 0.2rem;
-
-    }
-
-
-    .action_sign button {
-        padding: 0.5rem;
-        font-weight: normal;
-        letter-spacing: 0;
-        border-radius: 1rem;
-    }
-
-}
-
-@media(max-width:371px) {
-    .signInUp {
-        width: 90%;
-        max-width: 12rem;
-        /* height: 50vh; */
-
-    }
 }
